@@ -1,5 +1,5 @@
 # Laravel passport
-APIs typically use tokens to authenticate users because do not maintain session state between requests.Laravel Passport provides a full OAuth2 server implementation for your Laravel application in a matter of minutes.
+APIs typically use tokens to authenticate users because APIs do not maintain session state between requests.Laravel Passport provides a full OAuth2 server implementation for your Laravel application in a matter of minutes.
 ## We will get here
 ### Register API
 ### Details API
