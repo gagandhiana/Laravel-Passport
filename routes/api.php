@@ -27,7 +27,7 @@ use App\Http\Controllers\API\UserController;
 Route::post('register', 'App\Http\Controllers\API\UserController@register');
 
 Route::group(['middleware' => 'auth:api'], function(){
-Route::post('details', 'App\Http\Controllers\API\UserController@details');
+Route::get('details', 'App\Http\Controllers\API\UserController@details');
 });
 
 
